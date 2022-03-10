@@ -1,0 +1,30 @@
+/*
+ * L'effroyable fossé entre paragraphes
+ * Il faut respecter aussi le gras, l'italique, la largeur des paragraphes…
+ */
+
+ #aToiDeJouer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 30px 20px 0 20px;
+ }
+
+#aToiDeJouer div {
+     width:48%;
+     margin-bottom:20px;
+ }
+
+#aToiDeJouer div p {
+    margin-bottom:20px;
+}
+
+#aToiDeJouer div p em {
+    font-style:italic;
+}
+
+#aToiDeJouer div p strong {
+    font-weight:bold;
+}

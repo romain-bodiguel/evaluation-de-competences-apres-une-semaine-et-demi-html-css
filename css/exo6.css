@@ -1,0 +1,79 @@
+/*
+ * Le tableau de la victoire
+ *
+ * - liens : #d42945
+ * - prix : #f03b58
+ * - bouton order : dégradé #f0fbff => #cae0ed / bordure : #cae0ed
+ * - bordures du tableau : #e5eff8
+ * - titres : #66a3d3 / font : Trebuchet MS ou Arial
+ * - fond entete tableau : #f4f9fe
+ * - fond intitule tableau : #f9fcfe
+ * - fond ligne paire : #f7fbff
+ * - fond ligne impaire : #ffffff
+ * - textes : #678197 / font : Arial
+ */
+
+ table {
+    text-align: center;
+ }
+
+ .odd {
+    background-color: #f3f9fe;
+    font-family: Arial;
+    border:1px solid #e5eff8;
+ }
+
+ thead .odd th {
+    padding: 20px 10px;
+    color:#63a1d0;
+ }
+
+ /* th[scope="col"] {
+    
+ } */
+
+ th[scope="row"] {
+    background-color:#f9fcfe;
+ } 
+
+ tbody tr.odd th[scope="row"] {
+    background-color:#f3f9fe;
+ } 
+
+ th.column1 {
+    font-weight: lighter;
+    padding: 5px 20px 5px 20px;
+    text-align: left;
+    width: 10%;
+ }
+
+ tbody tr th {
+    padding: 0;
+ }
+
+ tfoot th {
+    padding: 10px 30px;
+    font-weight:lighter;
+ }
+
+ tfoot th strong {
+    color:#63a1d0;
+    font-weight: bold;
+ }
+
+ tfoot th em {
+    color:#ff2251;
+    font-weight: bold;
+ }
+
+ tfoot th a {
+    color: #ff2251;
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px;
+    border: 1px solid #d2e5f0;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: block;
+    background: linear-gradient(#f0fbff, #cae0ed);
+ }

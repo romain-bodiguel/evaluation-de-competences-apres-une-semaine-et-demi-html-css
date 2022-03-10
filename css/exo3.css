@@ -1,0 +1,24 @@
+/*
+ * Le pernicieux carré au pompon rouge
+ * Le carré doit toujours resté au centre du navigateur !
+ */
+
+ #black-square {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+ }
+
+ #red-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f00;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+ }

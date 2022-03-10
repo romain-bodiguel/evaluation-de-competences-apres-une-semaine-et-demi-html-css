@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Parcours HTML/CSS - Exo 6</title>
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,500i" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/base.min.css" />
+	<link rel="stylesheet" href="../css/exo6.css">
+</head>
+
+<body>
+	<header id="header">
+		<h1 id="title">Le parcours
+			<i>❤️</i>
+			<span>HTML/CSS</span>
+		</h1>
+	</header>
+	<nav id="nav"></nav>
+	<main id="main">
+
+		<div id="epreuve">
+			<div class="summary">
+				<div class="category">Tableau</div>
+				<h2>Le tableau de la victoire</h2>
+				<p>Ligne ou colonne ? Telle est la question</p>
+				<ul>
+					<li>liens : <code>#d42945</code></li>
+					<li>prix : <code>#f03b58</code></li>
+					<li>bouton order : dégradé <code>#f0fbff</code> : <code>#cae0ed </code>/ bordure : <code>#cae0ed</code></li>
+					<li>bordures du tableau : <code>#e5eff8</code></li>
+					<li>titres : <code>#66a3d3</code>/ font : Trebuchet MS ou Arial</li>
+					<li>fond entete tableau : <code>#f4f9fe</code></li>
+					<li>fond intitule tableau : #f9fcfe</li>
+					<li>fond ligne paire : <code>#f7fbff</code></li>
+					<li>fond ligne impaire : <code>#ffffff</code></li>
+					<li>textes : <code>#678197</code>/ font : Arial</li>
+				</ul>
+			</div>
+			<div class="demo">
+				<img src="../tests/exo6.png" alt="" />
+			</div>
+		</div>
+		<section id="test">
+
+
+
+
+
+
+
+
+
+			<!--
+				Il est temps de styliser un tableau bien rempli
+			-->
+			<div id="aToiDeJouer">
+			<!-- Ton code -->
+				<table>
+
+					<thead>
+						<tr class="odd">
+							<td class="column1"></td>
+							<th scope="col" abbr="Home">Webhosting Home</th>
+							<th scope="col" abbr="Home Plus">Webhosting Home Plus</th>
+							<th scope="col" abbr="Business">Webhosting Business</th>
+							<th scope="col" abbr="Business Plus">Webhosting Business Plus</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr class="odd">
+							<td class="column1">&nbsp;</td>
+							<th scope="col"><strong>Webhosting Home</strong><br><em>€ 4,95</em>/ month<br>
+								<a href="#" class="order-link" title="Bestel Web Hosting Home">Order now</a></th>
+							<th scope="col"><strong>Webhosting Home Plus</strong><br><em>€ 9,95 </em>/ month<br>
+								<a href="#" class="order-link" title="Bestel Web Hosting Home Plus">Order now</a></th>
+							<th scope="col"><strong>Webhosting Business</strong><br><em>€14,95</em> / month<br>
+								<a href="#" class="order-link" title="Bestel Web Hosting Business">Order now</a></th>
+							<th scope="col"><strong>Webhosting Business Plus</strong><br><em>€ 19,95</em> / month<br>
+								<a href="#" class="order-link" title="Bestel Web Hosting Business Plus">Order now</a></th>
+						</tr>
+					</tfoot>
+					<tbody>
+						<tr>
+							<th scope="row" class="column1">Data usage</th>
+							<td>1 GB per month</td>
+							<td>2 GB per month</td>
+							<td>5 GB per month</td>
+							<td>10 GB per month</td>
+						</tr>
+						<tr class="odd">
+							<th scope="row" class="column1">Opslag Capaciteit</th>
+							<td>100 MB </td>
+							<td>250 MB</td>
+							<td>500 MB</td>
+							<td>1 GB</td>
+						</tr>
+						<tr>
+							<th scope="row" class="column1">MySQL Databases</th>
+							<td>1</td>
+							<td>2</td>
+							<td>5</td>
+							<td>10</td>
+						</tr>
+						<tr class="odd">
+							<th scope="row" class="column1">Email Boxes</th>
+							<td>5</td>
+							<td>10</td>
+							<td>25</td>
+							<td>50</td>
+						</tr>
+						<tr>
+							<th scope="row" class="column1">Email Addresses</th>
+							<td>Unlimited</td>
+							<td>Unlimited</td>
+							<td>Unlimited</td>
+							<td>Unlimited</td>
+						</tr>
+						<tr class="odd">
+							<th scope="row" class="column1">Spam and Virus filter</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr>
+							<th scope="row" class="column1">Mailinglists</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr class="odd">
+							<th scope="row" class="column1">Autoresponders</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr>
+							<th scope="row" class="column1">PHP Supportg</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr class="odd">
+							<th scope="row" class="column1">CGI Support</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr>
+							<th scope="row" class="column1">SSL Support</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr class="odd">
+							<th scope="row" class="column1">DNS Management</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr>
+							<th scope="row" class="column1">Error Documents</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr class="odd">
+							<th scope="row" class="column1">Secure Folders</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+						<tr>
+							<th scope="row" class="column1">Statistics</th>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+							<td><img src="../img/icon-check.gif" alt="included" width="16" height="16"></td>
+						</tr>
+					</tbody>
+				</table>
+			<!-- Fin de ton code -->
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		</section>
+	</main>
+	<footer id="footer">
+		<p>
+			<strong>Besoin d'aide ?</strong> Direction les
+			<a href="https://kourou.oclock.io/ressources/fiches-recap/">
+				<i>📚</i> Fiches recap</a>
+		</p>
+		<p>O'clock</p>
+	</footer>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/app.js"></script>
+</body>
+
+</html>

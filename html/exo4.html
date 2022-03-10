@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Parcours HTML/CSS - Exo 4</title>
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,500i" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.min.css" />
+    <style>
+        #aToiDeJouer {
+
+            width: 527px;
+            height: 352px;
+            border:1px solid black;
+        }
+        .flag {
+            width: 525px;
+            height: 350px;
+            background: #FFF;
+            margin-bottom: 2em;
+        }
+
+    </style>
+	<link rel="stylesheet" href="../css/exo4.css">
+</head>
+
+<body>
+	<header id="header">
+		<h1 id="title">Le parcours
+			<i>❤️</i>
+			<span>HTML/CSS</span>
+		</h1>
+	</header>
+	<nav id="nav"></nav>
+	<main id="main">
+
+		<div id="epreuve">
+			<div class="summary">
+				<div class="category">Flex</div>
+				<h2>Le drapeau aux étoiles vicieuses</h2>
+        <p>Un tour au Panama ?</p>
+        <ul>
+            <li>Reproduire le drapeau du Panama</li>
+            <li>Utiliser flexbox</li>
+            <li>Utiliser une pipette pour récupérer les bonnes couleurs</li>
+            <li>Le html est déjà constuit <code>html/exo4.html</code> et ne doit pas être modifié</li>
+            <li>Le style doit aller dans le fichier <code>css/exo4.css</code></li>
+        </ul>
+			</div>
+			<div class="demo">
+				<img src="../tests/exo4.svg" alt="" />
+			</div>
+		</div>
+		<section id="test">
+
+
+
+
+				<div id="aToiDeJouer">
+
+
+					<div class="flag panama">
+                        <div class="carreau blanc">
+                          <img src="../img/star_blue.svg" width="80" alt="">
+                        </div>
+                        <div class="carreau rouge"></div>
+                        <div class="carreau bleu"></div>
+                        <div class="carreau blanc">
+                          <img src="../img/star_red.svg" width="80" alt="">
+                        </div>
+                      </div>
+
+
+				</div>
+
+
+
+
+
+
+		</section>
+	</main>
+	<footer id="footer">
+		<p>
+			<strong>Besoin d'aide ?</strong> Direction les
+			<a href="https://kourou.oclock.io/ressources/fiches-recap/">
+				<i>📚</i> Fiches recap</a>
+		</p>
+		<p>O'clock</p>
+	</footer>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+/*
+ * Le losange de la délivrance
+ */
+
+/* =======================================
+============== MON EXERCICE ============== 
+========================================== */
+
+ /* #aToiDeJouer {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    transform: rotate(45deg) translateY(10px);
+  }
+
+#wrap {
+    width: 355px;
+    height: 355px;
+    transform: rotate(-45deg) translateY(-74px);
+  }
+
+#wrap img {
+    width: 100%;
+    box-shadow: 0px 0px 20px #000;
+  } */
+
+/* ========================================
+============== LA CORRECTION ============== 
+=========================================== */
+  #wrap {
+    transform: rotate(45deg);
+    overflow: hidden;
+    width: 176px;
+    height: 176px;
+    margin: 100px auto 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.75);
+  }
+  #image {
+    transform: rotate(-45deg);
+    margin: -37px 0 0 -37px;
+  }
